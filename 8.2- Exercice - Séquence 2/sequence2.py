@@ -4,3 +4,8 @@
 
 nb_articles = 13
 prix_ht = 42.75
+calcule = nb_articles * prix_ht
+
+print("le prix TTC est :", (calcule) + round((calcule * 7.7 / 100),3), "CHF")
+
+
